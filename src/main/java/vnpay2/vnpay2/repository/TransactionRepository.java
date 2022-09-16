@@ -5,4 +5,5 @@ import org.springframework.stereotype.Repository;
 import vnpay2.vnpay2.entity.TransactionEntity;
 @Repository
 public interface TransactionRepository extends JpaRepository<TransactionEntity,Integer> {
+    TransactionEntity findByTransactionNo(String transactionNo);
 }

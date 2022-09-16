@@ -41,7 +41,6 @@ public class RefundRequestDTO {
                     .append("vnp_Amount").append("=").append(URLEncoder.encode(getVnp_Amount(), StandardCharsets.US_ASCII.toString())).append("&")
                     .append("vnp_TransactionNo").append("=").append(URLEncoder.encode(getVnp_TransactionNo(), StandardCharsets.US_ASCII.toString())).append("&")
                     .append("vnp_TransactionDate").append("=").append(URLEncoder.encode(getVnp_TransactionDate(), StandardCharsets.US_ASCII.toString())).append("&")
-                    .append("vnp_CreateBy").append("=").append(URLEncoder.encode(getVnp_CreateBy(), StandardCharsets.US_ASCII.toString())).append("&")
                     .append("vnp_createDate").append("=").append(URLEncoder.encode(getVnp_createDate(), StandardCharsets.US_ASCII.toString())).append("&")
                     .append("vnp_IpAddr").append("=").append(URLEncoder.encode(getVnp_IpAddr(), StandardCharsets.US_ASCII.toString())).append("&")
                     .append("vnp_OrderInfo").append("=").append(URLEncoder.encode(getVnp_OrderInfo(), StandardCharsets.US_ASCII.toString())).append("&")
@@ -63,7 +62,6 @@ public class RefundRequestDTO {
                     .append("vnp_Amount").append("=").append(URLEncoder.encode(getVnp_Amount(), StandardCharsets.US_ASCII.toString())).append("|")
                     .append("vnp_TransactionNo").append("=").append(URLEncoder.encode(getVnp_TransactionNo(), StandardCharsets.US_ASCII.toString())).append("|")
                     .append("vnp_TransactionDate").append("=").append(URLEncoder.encode(getVnp_TransactionDate(), StandardCharsets.US_ASCII.toString())).append("|")
-                    .append("vnp_CreateBy").append("=").append(URLEncoder.encode(getVnp_CreateBy(), StandardCharsets.US_ASCII.toString())).append("|")
                     .append("vnp_createDate").append("=").append(URLEncoder.encode(getVnp_createDate(), StandardCharsets.US_ASCII.toString())).append("|")
                     .append("vnp_IpAddr").append("=").append(URLEncoder.encode(getVnp_IpAddr(), StandardCharsets.US_ASCII.toString())).append("|")
                     .append("vnp_OrderInfo").append("=").append(URLEncoder.encode(getVnp_OrderInfo(), StandardCharsets.US_ASCII.toString()));
